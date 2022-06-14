@@ -1,7 +1,7 @@
 <?php
 /**
- * plugin Name: Oyesh Codewing
- * Description: This is just an example plugin
+ * plugin Name: Form Collector
+ * Description: This is just an example plugin for collecting information.
  **/
 
        function oyesh_example_function()
@@ -97,7 +97,7 @@
        $content .='<input type="text" name="Profession" placeholder="Profession" />';
        $content .='<br/>';
 
-       $content .='<textarea name="comments" palceholder="Give us your comments"></textarea>';
+       $content .='<textarea name="comments" placeholder="Please leave comments if you have any"></textarea>';
        $content .='<br/>';
 
        $content .= '<input type="submit" name="oyesh_submit_form" value="CLICK TO SUBMIT YOUR INFORMATION"/>';
